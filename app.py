@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -23,7 +22,6 @@ if st.checkbox("Mostrar Gráfico de Dispersión"):
     st.write("Gráfico de Dispersión: Precio vs Odómetro")
     fig = px.scatter(car_data, x="odometer", y="price", title="Precio vs Kilometraje")
     st.plotly_chart(fig, use_container_width=True)
-=======
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -48,4 +46,3 @@ if st.checkbox("Mostrar Gráfico de Dispersión"):
     st.write("Gráfico de Dispersión: Precio vs Odómetro")
     fig = px.scatter(car_data, x="odometer", y="price", title="Precio vs Kilometraje")
     st.plotly_chart(fig, use_container_width=True)
->>>>>>> 035ec31798771439cbfe1c60f4c2cf915aca49d3
